@@ -94,7 +94,7 @@ namespace IOC.Tests
 
             int timesCallingMethod = 5; 
             var service = new CustomerService(repositoryMock.Object);
-            for (int i = 0; i < timesCallingMethod; i++)
+            for (int i = 1; i <= timesCallingMethod; i++)
             {
                 service.CreateCustomer("Pesho" + i.ToString(), i);
             }

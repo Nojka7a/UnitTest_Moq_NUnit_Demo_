@@ -107,6 +107,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CustomerServiceTests.cs" />
+    <Compile Include="CustomerTests.cs" />
     <Compile Include="FakeCustomerRepository2.cs" />
     <Compile Include="FakeCustomerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

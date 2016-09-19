@@ -7,7 +7,7 @@ namespace InversionOfControlExample
 {
     public interface ICustomer
     {
-        string Name { get; }
-        int Id { get; }
+        string Name { get; set; }
+        int ID { get; set; }
     }
 }
